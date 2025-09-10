@@ -7,7 +7,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
 })
 export class CarreBleu {
   @Output() couleurClick = new EventEmitter<string>();
-  couleur = '#0078d7';
+  couleur = 'bg-bleu';
   onClick() {
     this.couleurClick.emit(this.couleur);
   }

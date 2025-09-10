@@ -2,11 +2,11 @@ import { Component, signal } from '@angular/core';
 import { Header } from "./header/header";
 import { Footer } from "./footer/footer";
 import { Carre } from "./carre/carre";
-import { NgStyle } from '@angular/common';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [Header, Footer, Carre, NgStyle],
+  imports: [Header, Footer, Carre, NgClass],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
